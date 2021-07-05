@@ -1,0 +1,19 @@
+{
+  "name": "password-generator",
+  "version": "1.0.0",
+  "description": "A password generating command line tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ts-A/password-generator.git"
+  },
+  "author": "T S Ajeet",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ts-A/password-generator/issues"
+  },
+  "homepage": "https://github.com/Ts-A/password-generator#readme"
+}

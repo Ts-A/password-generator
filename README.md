@@ -1,2 +1,11 @@
 # password-generator
-A command line password generating tool
+
+---
+
+## Description
+
+A simple command line password generating tool
+
+## Tech Stack
+
+Nodejs
