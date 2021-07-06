@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const { program } = require('commander');
 const clipboardy = require('clipboardy');
 const chalk = require('chalk');
@@ -12,7 +13,7 @@ program
 
 program
   .option('-l, --length <number>', 'Length of the password', '8')
-  .option('-s, --save', 'Save the password to passwords.txt', true)
+  .option('-s, --save', 'Save the password to passwords.txt', false)
   .option('-nn, --no-numbers', 'Remove numbers')
   .option('-ns, --no-symbols', 'Remove symbols')
   .parse();
